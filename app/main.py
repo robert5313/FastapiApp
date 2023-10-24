@@ -6,8 +6,7 @@ app = FastAPI()
 app.include_router(router)
 # Database connection
 # from pymongo.mongo_client import MongoClient
-# uri = "mongodb+srv://rkiptoo5244:RcbaJZsSK3d6kFt9@cluster0.bfivm5d.mongodb.net/fastApp?retryWrites=true&w=majority"
-# # Create a new client and connect to the server
+ # Create a new client and connect to the server
 # client = MongoClient(uri)
 # # Send a ping to confirm a successful connection
 # try:
